@@ -1,0 +1,173 @@
+2021-09-13 14:44:12,212 INFO    MainThread:14317 [internal.py:wandb_internal():89] W&B internal server running at pid: 14317, started at: 2021-09-13 14:44:12.212031
+2021-09-13 14:44:12,214 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: check_version
+2021-09-13 14:44:12,214 INFO    WriterThread:14317 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/run-1v8ri5rs.wandb
+2021-09-13 14:44:12,216 DEBUG   SenderThread:14317 [sender.py:send():182] send: header
+2021-09-13 14:44:12,216 DEBUG   SenderThread:14317 [sender.py:send_request():196] send_request: check_version
+2021-09-13 14:44:17,217 DEBUG   SenderThread:14317 [sender.py:send():182] send: run
+2021-09-13 14:44:23,277 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: run_start
+2021-09-13 14:44:23,279 INFO    SenderThread:14317 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files
+2021-09-13 14:44:23,279 INFO    SenderThread:14317 [sender.py:_start_run_threads():743] run started: 1v8ri5rs with start time 1631524451
+2021-09-13 14:44:23,279 DEBUG   SenderThread:14317 [sender.py:send():182] send: summary
+2021-09-13 14:44:23,280 INFO    SenderThread:14317 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-13 14:44:23,280 DEBUG   HandlerThread:14317 [meta.py:__init__():40] meta init
+2021-09-13 14:44:23,280 DEBUG   HandlerThread:14317 [meta.py:__init__():54] meta init done
+2021-09-13 14:44:23,280 DEBUG   HandlerThread:14317 [meta.py:probe():211] probe
+2021-09-13 14:44:23,287 DEBUG   HandlerThread:14317 [meta.py:_setup_git():201] setup git
+2021-09-13 14:44:23,296 DEBUG   HandlerThread:14317 [meta.py:_setup_git():208] setup git done
+2021-09-13 14:44:23,296 DEBUG   HandlerThread:14317 [meta.py:_save_pip():58] save pip
+2021-09-13 14:44:23,297 DEBUG   HandlerThread:14317 [meta.py:_save_pip():72] save pip done
+2021-09-13 14:44:23,297 DEBUG   HandlerThread:14317 [meta.py:_save_conda():79] save conda
+2021-09-13 14:44:24,281 INFO    Thread-8  :14317 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/wandb-summary.json
+2021-09-13 14:44:24,281 INFO    Thread-8  :14317 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/requirements.txt
+2021-09-13 14:44:24,281 INFO    Thread-8  :14317 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/conda-environment.yaml
+2021-09-13 14:44:28,286 INFO    Thread-8  :14317 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/output.log
+2021-09-13 14:44:30,286 INFO    Thread-8  :14317 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/output.log
+2021-09-13 14:44:30,735 DEBUG   HandlerThread:14317 [meta.py:_save_conda():87] save conda done
+2021-09-13 14:44:30,735 DEBUG   HandlerThread:14317 [meta.py:probe():249] probe done
+2021-09-13 14:44:30,789 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-13 14:44:30,789 DEBUG   SenderThread:14317 [sender.py:send_request():196] send_request: stop_status
+2021-09-13 14:44:30,790 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: pause
+2021-09-13 14:44:30,795 INFO    HandlerThread:14317 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-13 14:44:31,287 INFO    Thread-8  :14317 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/conda-environment.yaml
+2021-09-13 14:44:31,287 INFO    Thread-8  :14317 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/wandb-metadata.json
+2021-09-13 14:44:48,356 DEBUG   SenderThread:14317 [sender.py:send():182] send: files
+2021-09-13 14:44:48,360 INFO    SenderThread:14317 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-13 14:44:48,361 DEBUG   SenderThread:14317 [sender.py:send():182] send: stats
+2021-09-13 14:44:55,978 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: resume
+2021-09-13 14:44:55,979 INFO    HandlerThread:14317 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-13 14:44:55,979 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: pause
+2021-09-13 14:44:55,979 INFO    HandlerThread:14317 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-13 14:44:56,007 DEBUG   SenderThread:14317 [sender.py:send():182] send: stats
+2021-09-13 14:44:56,177 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: resume
+2021-09-13 14:44:56,177 INFO    HandlerThread:14317 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-13 14:44:56,209 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: pause
+2021-09-13 14:44:56,210 INFO    HandlerThread:14317 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-13 14:44:56,313 DEBUG   SenderThread:14317 [sender.py:send():182] send: stats
+2021-09-13 14:44:56,371 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: resume
+2021-09-13 14:44:56,371 INFO    HandlerThread:14317 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-13 14:44:56,818 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-13 14:44:56,818 DEBUG   SenderThread:14317 [sender.py:send():182] send: telemetry
+2021-09-13 14:44:56,818 DEBUG   SenderThread:14317 [sender.py:send():182] send: exit
+2021-09-13 14:44:56,819 INFO    SenderThread:14317 [sender.py:send_exit():291] handling exit code: 0
+2021-09-13 14:44:56,819 INFO    SenderThread:14317 [sender.py:send_exit():293] handling runtime: 8
+2021-09-13 14:44:56,819 INFO    SenderThread:14317 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-13 14:44:56,819 INFO    SenderThread:14317 [sender.py:send_exit():303] send defer
+2021-09-13 14:44:56,819 DEBUG   SenderThread:14317 [sender.py:send_request():196] send_request: poll_exit
+2021-09-13 14:44:56,820 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: defer
+2021-09-13 14:44:56,820 INFO    HandlerThread:14317 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-13 14:44:56,820 DEBUG   SenderThread:14317 [sender.py:send_request():196] send_request: defer
+2021-09-13 14:44:56,820 INFO    SenderThread:14317 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-13 14:44:56,820 INFO    SenderThread:14317 [sender.py:transition_state():316] send defer: 1
+2021-09-13 14:44:56,820 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: defer
+2021-09-13 14:44:56,820 INFO    HandlerThread:14317 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-13 14:44:56,899 DEBUG   SenderThread:14317 [sender.py:send_request():196] send_request: defer
+2021-09-13 14:44:56,899 INFO    SenderThread:14317 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-13 14:44:56,899 INFO    SenderThread:14317 [sender.py:transition_state():316] send defer: 2
+2021-09-13 14:44:56,900 DEBUG   SenderThread:14317 [sender.py:send():182] send: stats
+2021-09-13 14:44:56,900 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: defer
+2021-09-13 14:44:56,900 INFO    HandlerThread:14317 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-13 14:44:56,900 DEBUG   SenderThread:14317 [sender.py:send_request():196] send_request: defer
+2021-09-13 14:44:56,900 INFO    SenderThread:14317 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-13 14:44:56,901 INFO    SenderThread:14317 [sender.py:transition_state():316] send defer: 3
+2021-09-13 14:44:56,901 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: defer
+2021-09-13 14:44:56,901 INFO    HandlerThread:14317 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-13 14:44:56,901 DEBUG   SenderThread:14317 [sender.py:send():182] send: summary
+2021-09-13 14:44:56,901 INFO    SenderThread:14317 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-13 14:44:56,901 DEBUG   SenderThread:14317 [sender.py:send_request():196] send_request: defer
+2021-09-13 14:44:56,901 INFO    SenderThread:14317 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-13 14:44:56,901 INFO    SenderThread:14317 [sender.py:transition_state():316] send defer: 4
+2021-09-13 14:44:56,902 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: defer
+2021-09-13 14:44:56,902 INFO    HandlerThread:14317 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-13 14:44:56,902 DEBUG   SenderThread:14317 [sender.py:send_request():196] send_request: defer
+2021-09-13 14:44:56,902 INFO    SenderThread:14317 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-13 14:44:56,924 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-13 14:44:57,295 INFO    Thread-8  :14317 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/wandb-summary.json
+2021-09-13 14:44:57,295 INFO    Thread-8  :14317 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/output.log
+2021-09-13 14:45:02,025 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-13 14:45:07,125 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-13 14:45:12,226 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-13 14:45:17,326 DEBUG   HandlerThread:14317 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-13 14:45:19,142 WARNING MainThread:14317 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-09-13 14:45:19,729 ERROR   Thread-11 :14317 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/indika/anaconda3/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fc464f1bed0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc464f1bed0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc464f1bed0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2021-09-13 14:45:26,149 WARNING MainThread:14317 [internal.py:is_dead():365] Internal process exiting, parent pid 10313 disappeared
+2021-09-13 14:45:26,149 ERROR   MainThread:14317 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-13 14:45:26,335 INFO    HandlerThread:14317 [handler.py:finish():683] shutting down handler
+2021-09-13 14:45:26,905 INFO    WriterThread:14317 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/run-1v8ri5rs.wandb
+2021-09-13 14:45:50,718 INFO    SenderThread:14317 [sender.py:transition_state():316] send defer: 5
+2021-09-13 14:45:50,719 INFO    SenderThread:14317 [sender.py:finish():979] shutting down sender
+2021-09-13 14:45:50,719 INFO    SenderThread:14317 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-13 14:45:51,303 INFO    SenderThread:14317 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/config.yaml
+2021-09-13 14:45:51,303 INFO    SenderThread:14317 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files
+2021-09-13 14:45:51,303 INFO    SenderThread:14317 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/requirements.txt requirements.txt
+2021-09-13 14:45:51,303 INFO    SenderThread:14317 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/wandb-metadata.json wandb-metadata.json
+2021-09-13 14:45:51,304 INFO    SenderThread:14317 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/output.log output.log
+2021-09-13 14:45:51,304 INFO    SenderThread:14317 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/conda-environment.yaml conda-environment.yaml
+2021-09-13 14:45:51,311 INFO    SenderThread:14317 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/wandb-summary.json wandb-summary.json
+2021-09-13 14:45:51,311 INFO    SenderThread:14317 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/config.yaml config.yaml
+2021-09-13 14:45:51,311 INFO    SenderThread:14317 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-13 14:45:51,312 INFO    SenderThread:14317 [file_pusher.py:join():182] waiting for file pusher
+2021-09-13 14:45:52,840 INFO    Thread-18 :14317 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/wandb-summary.json
+2021-09-13 14:45:52,971 INFO    Thread-19 :14317 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/config.yaml
+2021-09-13 14:45:53,008 INFO    Thread-16 :14317 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/output.log
+2021-09-13 14:45:53,827 INFO    Thread-17 :14317 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/conda-environment.yaml
+2021-09-13 14:45:54,061 INFO    Thread-15 :14317 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/RNN/Bitcoin-Time-Series-All-Time/wandb/run-20210913_144411-1v8ri5rs/files/requirements.txt
+2021-09-13 14:45:57,072 INFO    Thread-11 :14317 [upload_job.py:push():137] Uploaded file /tmp/tmpqcj7k9ixwandb/291mn3ip-wandb-metadata.json
